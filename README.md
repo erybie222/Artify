@@ -45,6 +45,7 @@ python -m streamlit run app.py
 
 ### 📁 Project Structure
 
+```bash
 Artify/
 ├── app/
 │ └── interface.py # Streamlit frontend
@@ -56,6 +57,7 @@ Artify/
 ├── app.py # App entry point
 ├── requirements.txt
 └── README.md
+```
 
 ### 📌 To Do
 
