@@ -42,3 +42,32 @@ pip install -r requirements.txt
 ```bash
 python -m streamlit run app.py
 ```
+
+### 📁 Project Structure
+
+Artify/
+├── app/
+│ └── interface.py # Streamlit frontend
+├── models/
+│ └── style_transfer.py # NST logic (VGG19-based)
+├── assets/
+│ ├── content/ # Optional test content images
+│ └── style/ # Style images (e.g., starry_night.jpg)
+├── app.py # App entry point
+├── requirements.txt
+└── README.md
+
+### 📌 To Do
+
+Add more style options (Monet, Picasso, etc.)
+
+Allow adjusting blending weights
+
+Deploy to Hugging Face Spaces or Streamlit Cloud
+
+Mobile-friendly interface
+
+### 📄 License
+
+MIT License.
+Feel free to use, modify, and share!
